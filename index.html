@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Segurança, performance e inovação para o seu negócio.">
+  <meta name="keywords" content="Tech,Security, Inovation">
+  <title>TechInfo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar container">
+    <div class="logo">TechInfo</div>
+    <nav class="nav-links">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Features</a></li>
+        <li><a href="#">Contact</a></li>
+        <li class="Support"><a href="#">SUPPORT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero container">
+    <div class="hero-text">
+      <h1>Security, performance, and innovation for your business.</h1>
+      <p>We implement tailored solutions focused on data protection, system efficiency, and continuous innovation.</p>
+      <a href="#" class="GetStart">GET START</a>
+    </div>
+    <div class="hero-image">
+      <img src="fundo.png" alt="Decoração" />
+    </div>
+  </section>
+    <div class="floating-menu">
+        <button class="main-btn" onclick="toggleMenu()">⋯</button>
+        <div class="sub-buttons" id="subButtons">
+            <a href="#" target="_blank" title="WhatsApp">
+            <img src="whatsapp.png" alt="WhatsApp">
+            </a>
+        <a href="#" target="_blank" title="GitHub">
+            <img src="github.png" alt="GitHub">
+        </a>
+        <a href="#" target="_blank" title="Instagram">
+            <img src="instagram.png" alt="Instagram">
+        </a>
+        </div>
+    </div>
+
+    <script>
+    function toggleMenu() {
+    const sub = document.getElementById('subButtons');
+    sub.style.display = sub.style.display === 'flex' ? 'none' : 'flex';
+  }
+    </script>
+
+
+</body>
+</html>
+
+
